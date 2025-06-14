@@ -126,7 +126,7 @@ public class MeuParser extends java_cup.runtime.lr_parser {
   public static void main(String[] args) throws Exception 
   {
     QueryLexer queryLexer = new QueryLexer(new java.io.FileReader(args[0]));
-    MeuParser p = new Parser(queryLexer);
+    MeuParser p = new MeuParser(queryLexer);
     Object result = p.parse().value;
     System.out.println("Resultado = " + result);
   }

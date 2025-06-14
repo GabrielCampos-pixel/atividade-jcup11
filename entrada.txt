@@ -1,1 +1,6 @@
-FROM users SELECT name, year WHERE year > 1973 AND name = 'Muttley'
+{
+    "name": "Muttley"
+    "age": 36,
+    "grades": [100, 30.6, 90.8],
+    "passed": true
+}
